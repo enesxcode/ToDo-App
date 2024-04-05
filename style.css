@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+.container {
+    display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+}
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  /* outline: none; */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.task div div {
+  /* margin-left: 10px; */
+  display: flex;
+  
+}
+.completed {
+  text-decoration: line-through;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    padding: 30px;
+    background-image: url(Default_galaxy_0.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+aside {
+    width: 35%;
+    /* border: 1px solid red; */
+    background-color: #ddd8d8;
+    min-height: 95vh;
+    padding: 20px;
+}
